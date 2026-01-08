@@ -2,6 +2,8 @@
 
 An AI-powered application for generating and scheduling engaging LinkedIn posts. Built with React, TypeScript, and powered by Google's Gemini AI.
 
+![LinkedIn Content Creator](app-screenshot.png)
+
 ## Features
 
 - **AI Content Generation** - Generate professional LinkedIn posts using Gemini AI
