@@ -1,0 +1,5 @@
+{
+  "name": "LinkedIn Content Creator - AI Marketing Hub",
+  "description": "An AI-powered application to generate engaging LinkedIn posts. It researches topics and best practices using Google Search, creates post content and an image prompt with Gemini, and sends the final content to an n8n webhook for automation.",
+  "requestFramePermissions": []
+}

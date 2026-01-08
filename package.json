@@ -1,0 +1,41 @@
+{
+  "name": "linkedin-content-creator---ai-marketing-hub",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.cjs",
+    "start:all": "concurrently \"npm run dev\" \"npm run server\"",
+    "start": "npm run dev",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "docx": "^8.5.0",
+    "express": "^4.18.2",
+    "file-saver": "^2.0.5",
+    "jspdf": "^4.0.0",
+    "react": "^19.2.0",
+    "react-big-calendar": "^1.19.4",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "^22.14.0",
+    "@types/react-big-calendar": "^1.16.3",
+    "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^8.2.2",
+    "dotenv": "^17.2.3",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
